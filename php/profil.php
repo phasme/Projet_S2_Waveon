@@ -34,7 +34,7 @@ if (isset($_GET['id']) AND $_GET['id']>0){
     <?php
     if (isset($_SESSION['USER_ID']) AND $userinfo['USER_ID'] == $_SESSION['USER_ID']){
     ?>
-        <a href="#">Editer mon profil</a>
+        <a href="edit.php">Editer mon profil</a>
         <a href="deconnexion.php">Se déconnecter</a>
     <?php
     }
@@ -44,9 +44,8 @@ if (isset($_GET['id']) AND $_GET['id']>0){
 </html>
 <?php
 }
-/*
 else{
     header('Location: connexion.php');
-}*/
+}
 ?>
 <!-- pour afficher l'image <img src="php/images/<?php /*$_SESSION['PROFIL_PICTURE'] */?>" alt="">-->
