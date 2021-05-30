@@ -10,8 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946476f5-5f4a-4ff9-88ca-263314cf495d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="946476f5-5f4a-4ff9-88ca-263314cf495d" name="Default Changelist" comment="html index, mention leg, welcome">
+      <change afterPath="$PROJECT_DIR$/css/styles_graphiques.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles_mise_en_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/typographie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentions_legales.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/connexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/deconnexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/inscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/profil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -32,6 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1stWh8WNVZAWSwAr3OO5GbngCmV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +56,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LP_Projet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -52,8 +69,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621692482530</updated>
-      <workItem from="1621692483712" duration="3380000" />
+      <workItem from="1621692483712" duration="7122000" />
+      <workItem from="1621707395017" duration="173000" />
+      <workItem from="1621707578878" duration="1919000" />
+      <workItem from="1621760131998" duration="13429000" />
+      <workItem from="1621884485280" duration="14339000" />
+      <workItem from="1622259763966" duration="3009000" />
+      <workItem from="1622268173879" duration="503000" />
+      <workItem from="1622268759845" duration="2268000" />
+      <workItem from="1622271757836" duration="6845000" />
+      <workItem from="1622309439312" duration="30202000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1621696308790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621696308790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,23 +103,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="683" y="185" key="#SSH_Configurations" timestamp="1621695416922">
+    <state x="711" y="322" key="#SSH_Configurations" timestamp="1621707505756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="683" y="185" key="#SSH_Configurations/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621695416922" />
+    <state x="711" y="322" key="#SSH_Configurations/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621707505756" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621695171428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621695171428" />
-    <state x="1317" y="309" key="FileChooserDialogImpl" timestamp="1621695637421">
+    <state x="1317" y="309" key="FileChooserDialogImpl" timestamp="1621897997272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1317" y="309" key="FileChooserDialogImpl/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621695637421" />
-    <state x="429" y="128" key="SettingsEditor" timestamp="1621695735442">
+    <state x="1317" y="309" key="FileChooserDialogImpl/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621897997272" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1622407801472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="429" y="128" key="SettingsEditor/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621695735442" />
+    <state x="794" y="443" key="NewPhpFileDialog/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622407801472" />
+    <state x="429" y="128" key="SettingsEditor" timestamp="1621707661534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="429" y="128" key="SettingsEditor/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621707661534" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1622320695317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622320695317" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621696288743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621696288743" />
   </component>
 </project>

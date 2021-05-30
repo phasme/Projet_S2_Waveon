@@ -1,0 +1,46 @@
+/* footer */
+footer{
+    background-color: black;
+}
+.liens_footer>ul>li{
+    list-style: none;
+}
+.autres_footer li{
+    list-style: none;
+}
+
+/* index */
+.index{
+    background-color: black;
+}
+
+.index button,.welcome button{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    width: 60vw;
+    padding: 1vh 10vw;
+    font-size: 3em;
+    border-radius: 50px;
+    margin-top: 2vh;
+
+}
+.index button>a, .welcome button>a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.but_m{
+    background-color:#B09BE8 ;
+}
+.but_v{
+    background-color: #6C46CE;
+}
+
+/*welcome*/
+
+.welcome{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}

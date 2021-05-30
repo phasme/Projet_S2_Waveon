@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="8652c2a5-3a5e-4e8e-83e6-4b5d6377741a" name="infomaniak">
+      <webServer id="70490489-7c60-4174-aab2-494a1f7a3f1d" name="waveonfinal">
         <fileTransfer rootFolder="/home/clients/c00d2758a7278b05147c76d35e2eca47" accessType="SFTP" host="pn378.ftp.infomaniak.com" port="22" sshConfigId="8008551f-f06e-4b9a-845a-bb2c12a16466" sshConfig="pn378_jlin4@pn378.ftp.infomaniak.com:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />

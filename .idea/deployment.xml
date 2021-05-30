@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="infomaniak" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="waveonfinal" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="infomaniak">
+      <paths name="waveonfinal">
         <serverdata>
           <mappings>
-            <mapping deploy="/sites/waveonfinal.jorislin.fr  " local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/sites/waveonfinal.jorislin.fr" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
           </mappings>
         </serverdata>
       </paths>

@@ -1,0 +1,118 @@
+/* footer */
+
+footer{
+    padding: 10vw;
+}
+footer div{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.liens_footer, .autres_footer{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.liens_footer>ul>li{
+    padding-top: 1vh;
+}
+.liens_footer>ul{
+    padding-left: 0;
+}
+
+.logo_footer{
+    width: 50vw;
+    height: auto;
+}
+
+.icones_footer{
+    width: 8vw;
+    height: auto;
+}
+
+.reseaux_footer li{
+    margin-right: 2vw;
+}
+.reseaux_footer ul{
+    display: flex;
+    padding-left: 0;
+    padding-top: 1vh;
+}
+
+.autres_footer ul{
+    padding-left: 0;
+}
+
+/* index */
+.home_2>img{
+    width: 98vw;
+    height: auto;
+}
+
+.index p{
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+.fleche_index{
+    height: 15vh;
+    width: auto;
+    margin-top: 2vh;
+}
+
+.wave_index{
+    width: 25vw;
+    height: auto;
+}
+.logo_intro, .logo_welcome{
+    width: 60vw;
+    height: auto;
+}
+.logo_intro{
+    margin-top: 5vh;
+}
+
+.index_intro>h1{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 25vh;
+}
+
+.index h2{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 7em;
+    margin-top: 5vh;
+}
+
+.index_intro{
+    background-image: url("../img/home_1.jpg");
+    background-size: cover;
+    height: 70vh;
+    width: auto;
+}
+/*welcome*/
+
+.logo_welcome{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 5vh;
+}
+.welcome img{
+    width: 100vw;
+    height: auto;
+    margin-top: 7vh;
+}
+
+.logo_welcome #Nom_logo{
+    padding-bottom: 2vh;
+}
+
+.welcome>header{
+    margin-top: 4vh;
+}
+.welcome>header>a>svg{
+    height: 3vh;
+    width: auto;
+}
+.welcome>header>a{
+    text-align: left;
+}
