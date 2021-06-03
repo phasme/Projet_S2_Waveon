@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$bdd = new PDO('mysql:host=localhost;dbname=waveon', 'root', '');
+
 
 if (isset($_SESSION['USER_ID'])){
     $requsr = $bdd->prepare("SELECT * FROM user_person WHERE USER_ID = ?");

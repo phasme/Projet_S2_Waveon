@@ -1,10 +1,11 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$bdd = new PDO('mysql:host=localhost;dbname=waveon', 'root', '');
+require_once 'cnx.php';
 
 if(isset($_POST['connect_form'])){
     $mailconnect = htmlspecialchars($_POST['mailconnect']);

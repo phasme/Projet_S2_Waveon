@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$bdd = new PDO('mysql:host=localhost;dbname=waveon', 'root', '');
+require_once 'cnx.php';
 
 if (isset($_GET['id']) AND $_GET['id']>0){
     $getid = intval($_GET['id']);

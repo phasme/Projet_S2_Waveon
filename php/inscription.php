@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$bdd = new PDO('mysql:host=localhost;dbname=waveon', 'root', '');
+require_once 'cnx.php';
 
 if (isset($_POST['inscr_form'])){
 
@@ -64,7 +64,6 @@ if (isset($_POST['inscr_form'])){
 
 }
 
-$bdd = new PDO('mysql:host=localhost;dbname=waveon', 'root', '');
 ?>
 
 <!DOCTYPE html>
