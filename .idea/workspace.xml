@@ -10,8 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946476f5-5f4a-4ff9-88ca-263314cf495d" name="Default Changelist" comment="style connexion et inscription">
+    <list default="true" id="946476f5-5f4a-4ff9-88ca-263314cf495d" name="Default Changelist" comment="test commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles_mise_en_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_mise_en_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/typographie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/typographie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/legal_notices.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal_notices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscription.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +85,7 @@
       <workItem from="1622546020524" duration="43000" />
       <workItem from="1622559076655" duration="19000" />
       <workItem from="1622715063349" duration="4211000" />
-      <workItem from="1622720436661" duration="13535000" />
+      <workItem from="1622720436661" duration="16095000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1621696308790</created>
@@ -129,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622734074772</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test commit">
+      <created>1622734766444</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622734766444</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +168,8 @@
     <MESSAGE value="ajout pages html" />
     <MESSAGE value="ajout pages css" />
     <MESSAGE value="style connexion et inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="style connexion et inscription" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="322" key="#SSH_Configurations" timestamp="1621707505756">

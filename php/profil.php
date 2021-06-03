@@ -107,6 +107,7 @@ if (isset($_GET['id']) AND $_GET['id']>0){
         </ul>
     </div>
 </footer>
+<script  src="js/script.js"></script>
 </body>
 </html>
 <?php

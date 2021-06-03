@@ -15,20 +15,21 @@
 <body id="settings">
     <header>
         <div class="navbar">
-            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+            <a href="index.html"><img src="img/Logo.svg" alt="logo"></a>
             <div class="nav-toggle">
                 <div class="nav-toggle-bar"></div>
             </div>
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="profil.html">Mon profil</a></li>
+                <li><a href="php/profil.php">Mon profil</a></li>
                 <li><a href="settings.html">Paramètres</a></li>
                 <li><a href="contact.html">Contacter Waveon</a></li>
                 <li><a href="#">Aides</a></li>
             </ul>
         </nav>
 
+        <!-- LIEN MENU -->
         <a href="#"><img class="icone_recherche" src="img/icone_recherche.svg" alt="Icone loupe"></a>
         <a href="#"><img class="icone_notification" src="img/icone_notification.svg" alt="Icone cloche"></a>
     </header>
@@ -61,11 +62,6 @@
                 </ul>
             </div>
     </footer>
-    <script>
-        function doToggle() {
-    // element.classList.toggle() => change la présence d'une classe dans la liste. Si la classe existe, alors la supprime et renvoie false, dans le cas inverse, ajoute cette classe et retourne true.
-    page.classList.toggle('menu-open');
-    }
-    </script>
+    <script  src="js/script.js"></script>
 </body>
 </html>

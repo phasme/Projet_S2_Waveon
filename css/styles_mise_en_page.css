@@ -19,14 +19,19 @@ button {
     align-items: center;
 }
 
- /*---------------------------------
-        HEADER
+/*---------------------------------
+       HEADER
 ----------------------------------*/
 header > .navbar > a > img{
-    width: 4vh;
+    width: 30px;
     position: fixed;
     top: 37px;
     left: 2rem;
+}
+
+.navbar {
+    position: relative;
+    z-index: 100;
 }
 
 .nav-toggle {
@@ -49,6 +54,8 @@ header > .navbar > a > img{
     height: 2px;
     position: absolute;
     right: 0;
+    z-index: 100;
+    transition: all .4s ease;
 }
 
 .nav-toggle-bar::before{
@@ -77,6 +84,67 @@ header .icone_recherche {
     margin: 1.9rem 1rem 0 13.5rem;
 }
 
+/*MENU*/
+
+/* Mise en forme menu */
+.menu {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    visibility: hidden;
+    overflow: hidden;
+    transform: translateX(100vw);
+    transition: all .4s ease-in-out;
+}
+
+/* Quand on clique sur l'icone de menu */
+
+.menu-open .menu {
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Eléments du menu */
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 30px;
+}
+.menu-open,
+.menu-open body {
+    overflow: hidden;
+}
+
+/*animation croix*/
+.menu-open .nav-toggle-bar{
+    transform: rotate(135deg);
+    background: white;
+    width: 100%;
+}
+.menu-open  .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after{
+    background: white;
+    transform: rotate(90deg);
+    top:0;
+    width: 100%;
+}
+.menu-open  .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after{
+    top: 0;
+}
 /*---------------------------------
         FOOTER
 ----------------------------------*/
@@ -277,6 +345,14 @@ footer > ul.flex > li {
     width: 20%;
     margin-left: 0.1rem;
 }
+
+#offre {
+    margin: 0;
+}
+
+#offre > a > img {
+    width: 100%;
+}
 /*---------------------------------
         LEGALNOTICES
 ----------------------------------*/
@@ -284,13 +360,14 @@ footer > ul.flex > li {
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: left;
-    padding-bottom: 2vh;
-    padding-top: 2vh;
 }
 
-#legal_notices span{
+/*---------------------------------
+        SETTINGS
+----------------------------------*/
+#settings {
+    background-image: url('../img/settings_img.jpg');
 }
-
 /*---------------------------------
         PAGES <-- FOOTER
 ----------------------------------*/
