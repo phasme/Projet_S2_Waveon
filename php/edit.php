@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-
+require_once 'cnx.php';
 
 if (isset($_SESSION['USER_ID'])){
     $requsr = $bdd->prepare("SELECT * FROM user_person WHERE USER_ID = ?");
@@ -49,7 +49,7 @@ if (isset($_SESSION['USER_ID'])){
     <head>
         <meta charset="UTF-8">
         <title>Votre profil - Waveon</title>
-        <link rel="stylesheet" href="../css/styles_graphiques.css">
+        <link rel="stylesheet" href="../css/styles_graphique.css">
         <link rel="stylesheet" href="../css/styles_mise_en_page.css">
         <link rel="stylesheet" href="../css/typographie.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">

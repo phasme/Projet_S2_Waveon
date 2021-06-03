@@ -71,17 +71,22 @@ if (isset($_POST['inscr_form'])){
 <head>
     <meta charset="UTF-8">
     <title>Inscription  à Waveon</title>
-    <link rel="stylesheet" href="../css/styles_graphiques.css">
+    <link rel="stylesheet" href="../css/styles_graphique.css">
     <link rel="stylesheet" href="../css/styles_mise_en_page.css">
     <link rel="stylesheet" href="../css/typographie.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-<div>
+<body class="inscription">
+<header>
+    <div class="navbar">
+        <a href="../index.html"><img src="../img/logo.svg" alt="logo"></a>
+    </div>
+</header>
+<div class="formulaire">
 
-    <h2>Inscription</h2>
+    <h2>INSCRIVEZ-VOUS GRATUITEMENT</h2>
     <form method="POST" action="">
         <label for="nom">Quel est votre nom ?</label>
         <input type="text" id="nom" placeholder="Saisissez votre nom" name="nom">
@@ -104,11 +109,11 @@ if (isset($_POST['inscr_form'])){
         <label for="pseudo">Quel est votre pseudo ?</label>
         <input type="text" id="pseudo" placeholder="Saisissez votre pseudo" name="pseudo">
 
-        <input type="submit" value="S'inscrire" name="inscr_form">
+        <input class="btn_m" type="submit" value="C'est parti !" name="inscr_form">
     </form>
     <?php
     if (isset($erreur)){
-        echo "<div>".$erreur."</div>";
+        echo "<div class='erreur'>".$erreur."</div>";
     }
     ?>
 </div>

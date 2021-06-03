@@ -284,6 +284,11 @@ footer > ul.flex > li {
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: left;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+#legal_notices span{
 }
 
 /*---------------------------------

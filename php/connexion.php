@@ -38,16 +38,20 @@ if(isset($_POST['connect_form'])){
 <head>
     <meta charset="UTF-8">
     <title>Connexion à Waveon</title>
-    <link rel="stylesheet" href="../css/styles_graphiques.css">
+    <link rel="stylesheet" href="../css/styles_graphique.css">
     <link rel="stylesheet" href="../css/styles_mise_en_page.css">
     <link rel="stylesheet" href="../css/typographie.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-<div>
-
+<body class="connexion">
+<header>
+    <div class="navbar">
+        <a href="../index.html"><img src="../img/logo.svg" alt="logo"></a>
+    </div>
+</header>
+<div class="formulaire">
     <h2>Connexion</h2>
     <form method="POST" action="">
 
@@ -57,7 +61,7 @@ if(isset($_POST['connect_form'])){
         <label for="mdpconnect">Saisissez votre mot de passe</label>
         <input type="password" id="mdpconnect" placeholder="Saisissez votre mot de passe" name="mdpconnect">
 
-        <input type="submit" value="Se connecter" name="connect_form">
+        <input class="btn_m" type="submit" value="Se connecter" name="connect_form">
     </form>
     <?php
     if (isset($erreur)){

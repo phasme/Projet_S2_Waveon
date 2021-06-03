@@ -18,7 +18,7 @@ if (isset($_GET['id']) AND $_GET['id']>0){
 <head>
     <meta charset="UTF-8">
     <title>Votre profil - Waveon</title>
-    <link rel="stylesheet" href="../css/styles_graphiques.css">
+    <link rel="stylesheet" href="../css/styles_graphique.css">
     <link rel="stylesheet" href="../css/styles_mise_en_page.css">
     <link rel="stylesheet" href="../css/typographie.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
