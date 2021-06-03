@@ -12,14 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="946476f5-5f4a-4ff9-88ca-263314cf495d" name="Default Changelist" comment="style connexion et inscription">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles_graphique.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_graphique.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles_mise_en_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_mise_en_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/param/param.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php/param/param.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profil.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -85,7 +78,7 @@
       <workItem from="1622546020524" duration="43000" />
       <workItem from="1622559076655" duration="19000" />
       <workItem from="1622715063349" duration="4211000" />
-      <workItem from="1622720436661" duration="12852000" />
+      <workItem from="1622720436661" duration="13535000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1621696308790</created>
@@ -129,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622729457328</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="style connexion et inscription">
+      <created>1622734074772</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622734074772</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,10 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="322" key="#SSH_Configurations/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621707505756" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621695171428">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622734397297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621695171428" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622734397297" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622733347584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,5 +189,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621696288743" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622734110333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622734110333" />
   </component>
 </project>
