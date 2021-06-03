@@ -1,0 +1,19 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.046" height="427.32" viewBox="0 0 504.046 427.32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_116" data-name="Rectangle 116" width="504.046" height="427.32" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_1292" data-name="Groupe 1292" transform="translate(97.805 213.828)">
+    <rect id="Rectangle_111" data-name="Rectangle 111" width="48.038" height="151.773" fill="#b09be8"/>
+    <path id="Tracé_63" data-name="Tracé 63" d="M0,0H48.038V151.768H0Z" transform="translate(63.799 59.386)" fill="#8867dc"/>
+    <rect id="Rectangle_113" data-name="Rectangle 113" width="48.042" height="151.773" transform="translate(127.597 28.99)" fill="#6c46ce"/>
+    <rect id="Rectangle_114" data-name="Rectangle 114" width="48.042" height="151.773" transform="translate(190.906 61.719)" fill="#4f24bc"/>
+    <rect id="Rectangle_115" data-name="Rectangle 115" width="48.042" height="151.773" transform="translate(254.224)" fill="#360f9b"/>
+  </g>
+  <g id="Groupe_74" data-name="Groupe 74" transform="translate(0 0)">
+    <g id="Groupe_73" data-name="Groupe 73" clip-path="url(#clip-path)">
+      <path id="Tracé_24" data-name="Tracé 24" d="M449.622,213.758C459.309,101,368.683,4.071,258.563.136V.061C257.193.028,255.819,0,254.44,0c-.437,0-.875.014-1.312.014-.4,0-.8-.009-1.206-.014h-.192c-.4,0-.8.014-1.206.014-.432,0-.87-.014-1.307-.014-1.379,0-2.749.028-4.123.061V.136C136.078,4.029,46.154,99.061,53.761,210.365,22.551,220.288,0,248.82,0,282.493c0,41.914,34.929,75.887,78.012,75.887V206.607l-.187,0c.154-5.207.519-11.354,1.321-18.234,1.663-14.3,5.367-43.728,22.695-74.236,6.242-10.985,27.519-47.261,72.342-68.712,2.811-1.313,5.7-2.473,8.6-3.594a218.807,218.807,0,0,1,21.844-7.194,198.485,198.485,0,0,1,30.287-5.6c1.072-.117,10.269-.748,16.914-1.285,6.646.538,15.838,1.169,16.9,1.285a198.435,198.435,0,0,1,30.292,5.6,219.292,219.292,0,0,1,21.849,7.194c2.893,1.122,5.79,2.281,8.6,3.594,44.823,21.45,66.1,57.727,72.342,68.712,17.328,30.509,21.032,59.933,22.7,74.236a213.477,213.477,0,0,1,1.418,25.386l.106.009V361.993c43.088,0,78.012-33.977,78.012-75.887,0-33.912-22.873-62.621-54.424-72.348" transform="translate(0 -0.001)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

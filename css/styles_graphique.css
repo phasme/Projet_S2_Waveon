@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*------------------------------------
+    ALL
+ ------------------------------------*/
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+button {
+    border: none;
+    font-size: 18px;
+    color: white;
+    width: 220px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+ 
+span {
+    color: #EF619C;
+}
+/*---------------------------------
+        FOOTER
+----------------------------------*/
+.liens_pages > ul > li, .text_reseaux,
+footer > ul:nth-child(3) > li {
+    font-weight: 300;
+}
+
+footer > ul:nth-child(3) > li {
+    color: #6C46CE;
+}
+
+.liens_pages2 > ul > li > a{
+    color: #7A7A7A;
+}
+
+/*---------------------------------
+        INDEX
+----------------------------------*/
+
+#index {
+    background-image: url("../img/home_1.jpg");
+    background-repeat: no-repeat;
+}
+
+#index > article > h1 {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.btn_m {
+    background-color: #B09BE8;
+}
+
+.btn_v {
+    background-color: #6C46CE;
+}
+
+#index > article:nth-child(3) > div:nth-child(1) > h2 {
+    text-transform: uppercase;
+}
+
+/*---------------------------------
+        WELCOMEPAGE
+----------------------------------*/
+#welcome{
+    background-image: url("../img/portrait_welcome.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#welcome .container{
+    color: white;
+}
+
+/*---------------------------------
+        PROFILPAGE
+----------------------------------*/
+.profil > * {
+    box-sizing: border-box;
+}
+
+.profil_chiffres {
+    color: #FDB8D5;
+}
+
+.profil > img, .icone_ajout_bio{
+    color: #B09BE8;
+}
+
+/*---------------------------------
+        SUBSCRIPTION
+----------------------------------*/
+#subscription > main {
+    background-size: cover;
+    background-image: url("../img/subscription.jpg");
+    background-repeat: no-repeat;
+}
+
+#subscription h3 {
+    text-shadow: black 1px 0 8px;
+}
+
+.btn_subscription{
+    background-color: #EF619C;
+    border-radius: 56px;
+}
+
+.line_gray {
+    border: 1px solid #707070;
+}
+
+.text_gray {
+    color: #B4B4B4;
+}
+
+#subscription > main > div:nth-child(6) > button:nth-child(1) {
+    background-color: #B09BE8;
+}
+
+#subscription > main > div:nth-child(6) > button:nth-child(2) {
+    background-color: #EF619C;
+}
+/*---------------------------------
+        PAGES <-- FOOTER
+----------------------------------*/
+
+/*---------------------------------
+        PAGETEAM <-- FOOTER
+----------------------------------*/
+#team > h3 {
+    font-weight: 400;
+    color: #B09BE8;
+}
+
+.line_pink, .line_pink_j {
+    border: 1px solid #FAB5D6;
+    width: 10rem;
+}
+/*---------------------------------
+        MEDIAQUERIES
+----------------------------------*/
+
+@media screen and (max-width: 480px){
+    #welcome{
+        background-size: 280%;
+        background-position: 46% 200%;
+    }
+    #index{
+        background-size: 150%;
+        background-position: 55% 85%;
+    }
+}
