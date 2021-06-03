@@ -65,7 +65,7 @@ if(isset($_POST['connect_form'])){
     </form>
     <?php
     if (isset($erreur)){
-        echo "<div>".$erreur."</div>";
+        echo "<div class='erreur'>".$erreur."</div>";
     }
     ?>
 </div>

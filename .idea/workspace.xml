@@ -10,26 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946476f5-5f4a-4ff9-88ca-263314cf495d" name="Default Changelist" comment="ajout pages css">
+    <list default="true" id="946476f5-5f4a-4ff9-88ca-263314cf495d" name="Default Changelist" comment="style connexion et inscription">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles_graphique.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_graphique.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles_mise_en_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_mise_en_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/typographie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/typographie.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal_notices.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal_notices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentions_legales.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/cnx.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/cnx.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/connexion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/param/param.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php/param/param.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profil.html" beforeDir="false" afterPath="$PROJECT_DIR$/profil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profil.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +85,7 @@
       <workItem from="1622546020524" duration="43000" />
       <workItem from="1622559076655" duration="19000" />
       <workItem from="1622715063349" duration="4211000" />
-      <workItem from="1622720436661" duration="8278000" />
+      <workItem from="1622720436661" duration="12852000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1621696308790</created>
@@ -132,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622720995688</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="style connexion et inscription">
+      <created>1622729457328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622729457328</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +153,8 @@
     <MESSAGE value="edit profil" />
     <MESSAGE value="ajout pages html" />
     <MESSAGE value="ajout pages css" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout pages css" />
+    <MESSAGE value="style connexion et inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="style connexion et inscription" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="322" key="#SSH_Configurations" timestamp="1621707505756">
@@ -167,10 +165,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621695171428" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622721101206">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622733347584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622721101206" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.104.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622733347584" />
     <state x="863" y="156" key="FileChooserDialogImpl" timestamp="1622494408829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

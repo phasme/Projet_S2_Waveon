@@ -177,7 +177,7 @@ footer > ul:nth-child(3) > li {
     background-attachment: fixed;
 }
 
-.inscription h2, .connexion h2{
+.inscription h2, .connexion h2, .edit h2{
     font-size: 5em;
     margin-top: 2vh;
     margin-bottom: 1em;
@@ -208,6 +208,20 @@ footer > ul:nth-child(3) > li {
 
 .connexion {
     background-image: url("../img/connexion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.deco_profil{
+    margin-top: 2vh;
+    text-align: center;
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+.edit{
+    background-image: url("../img/fond_param.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

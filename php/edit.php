@@ -56,8 +56,13 @@ if (isset($_SESSION['USER_ID'])){
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     </head>
-    <body>
-    <div>
+    <body class="edit">
+    <header>
+        <div class="navbar">
+            <a href="../index.html"><img src="../img/logo.svg" alt="logo"></a>
+        </div>
+    </header>
+    <div class="formulaire">
         <h2>Editer mon profil</h2>
         <form method="post" action="">
             <label for="">Modifier votre pseudo :</label>
@@ -72,12 +77,11 @@ if (isset($_SESSION['USER_ID'])){
             <label for="">Confirmez votre nouveau mot de passe:</label>
             <input type="password" name="newmdp2" placeholder="Confirmez votre nouveau mot de passe">
 
-            <input type="submit" value="Enregistrer">
+            <input class="btn_m" type="submit" value="Enregistrer">
         </form>
         <?php
         if (isset($msg)){ echo $msg;}
             ?>
-
     </div>
     </body>
     </html>

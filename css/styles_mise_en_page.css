@@ -23,7 +23,7 @@ button {
         HEADER
 ----------------------------------*/
 header > .navbar > a > img{
-    width: 30px;
+    width: 4vh;
     position: fixed;
     top: 37px;
     left: 2rem;
